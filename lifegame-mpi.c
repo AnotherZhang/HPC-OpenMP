@@ -18,7 +18,7 @@
 #define DEAD 0
 #define ALIVE 1
 
-void initial(int **matrix);
+void initial(int **board);
 void print_board(int *board, int rows, int columns);
 void move_next_step(int rows, int c, int *board);
 void output_life_board(int *board, int rows, int columns);
