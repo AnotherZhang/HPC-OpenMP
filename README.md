@@ -4,3 +4,8 @@ In this file, you can verify different patterns by changing the value of "patter
 
 ## lifegame.c
 In this file, the parallelism is implemented by OpenMP.
+#### How to run it on SURF platform?
+```
+make lifegame
+sbatch lifegame-sbatch.sh
+```
