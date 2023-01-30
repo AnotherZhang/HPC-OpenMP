@@ -9,3 +9,4 @@ In this file, the parallelism is implemented by OpenMP.
 make lifegame
 sbatch lifegame-sbatch.sh
 ```
+note: the default pattern model is Grower and the default number of threads is 16. You can chage it in lifegame-sbatch.sh
